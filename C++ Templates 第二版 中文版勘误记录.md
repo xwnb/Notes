@@ -1,11 +1,12 @@
 # 《C++ Templates 第2版 中文版》 勘误记录
 
-个人阅读过程中发现的一些疑点及错误的记录，如有不当，谢谢指正。-- by Wayne
+这是关于一本学习 C++ 模板的书籍，内容和水准都很高，正在努力啃，而且使用了很多 modern C++ 的内容，以下是个人阅读中文版过程中发现的一些疑点及错误的记录（PS: 中文版大佬翻译质量很可以，每次读到国内翻译的书，都不得不感谢这些巨佬们用爱发电，给菜鸡赏饭吃。PSS: 不得不再次吐槽也是忍不住次次吐槽也是唯一吐槽过的一本中文版书籍，那就是 C++ 并行编程实战 中文版 **第一版** **第一版** **第一版** 的译者们。真的，如果不热爱技术没有责任心只是为了刷KPI或者赚钱或者刷知名度等等，不如不翻。PSSS：我都怀疑机翻都翻译不出这种十句有三句错误，二句不同，剩下五句不明所以的中文字）。如有不当，谢谢指正。-- by Wayne
 
-#### P58: 表达不明：第 5.3 节最后一段
+#### P58: 意思不明：第 5.3 节最后一段
 + 译文：我们始终建议适用 this-> 或者 Base<T>:: 来限定修饰在基类中的声明，并在某种程度上依赖于模板参数的任何符号
 + 原文：we recommend that you always qualify any symbol that is declared in a base that is somehow
 dependent on a template parameter with this-> or Base<T>::.
++ **NOTE: 我们始终建议适用 this-> 或者 Base<T>:: 来限定修饰在基类中的声明，并在某种程度上依赖于模板参数的任何符号**
 
 #### P173: 错译：第 12.5.3 节该页最后一段
 + 译文：……，并在后面**紧跟着角括号**的情况下，……
@@ -38,7 +39,7 @@ as other **literal types**:
 
 #### P134，P242，P343，P382：用词不一致：helper
 + 译文：**帮助**模板，**辅助**类模板，**helper** VoidT，**helper** 类
-+ **NOTE: 多种风格，但不影响意思**
++ **NOTE: 多种风格，但不影响阅读**
 
 #### P382: typo：中间一段文本中
 + 译文：isRandomAccessiator
@@ -47,7 +48,7 @@ as other **literal types**:
 #### P382：用词：倒数第二行
 + 译文：EnableIfT<...>::Type（**因此** EnableIf<...>）
 + 原文：EnableIfT<...>::Type (**and therefore** EnableIf<...>)
-+ **NOTE: 翻译成 即？也就是？**
++ **NOTE: 这里翻译成 即？也就是？ 意思是不是更通顺**
 
 #### P382：用词：倒数第二行
 + 译文：EnableIfT<...>::Type（**因此** EnableIf<...>）

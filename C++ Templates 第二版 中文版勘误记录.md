@@ -1,53 +1,46 @@
-# 《C++ Templates 第2版 中文版》 勘误 个人记录
--- by Wayne
+# 《C++ Templates 第2版 中文版》 勘误记录
+
+个人阅读过程中发现的一些疑点及错误的记录，如有不当，谢谢指正。-- by Wayne
 
 #### P58: 表达不明：第 5.3 节最后一段
 + 译文：我们始终建议适用 this-> 或者 Base<T>:: 来限定修饰在基类中的声明，并在某种程度上依赖于模板参数的任何符号
 + 原文：we recommend that you always qualify any symbol that is declared in a base that is somehow
 dependent on a template parameter with this-> or Base<T>::.
 
-#### P173: 意思相反：第 12.5.3 节该页最后一段
-
+#### P173: 错译：第 12.5.3 节该页最后一段
 + 译文：……，并在后面**紧跟着角括号**的情况下，……
 + 原文：…… that **is not followed by angle brackets**……
 + **NOTE: 没有跟着**
 
-#### P176：意思相反：表格中 受限名称 一行
-
+#### P176：错译：表格中 受限名称 一行
 + 译文： ……，但是单独一个 class_mem（即前面没有 -> 等）**就是一个受限名称**，……
 + 原文：However, just class_mem in a context that is implicitly equivalent to
 this->class_mem **is not a qualified name**
 + **NOTE: 不是一个受限名称**
 
 #### P271：typo: 倒数第二段
-
 + 译文：t<A1 const>(A1 const*, A1 const*, A1 const* = 0)
 + 原文：T<A1 const>(A1 const*, A1 const*, A1 const* = 0)
 
 #### P319：意思不对；歧义词：第一段
-
 + 译文：constexpr 静态数据成员就**更不能使用了**，因为只允许浮点类型和其他**文本类型**
 + 原文：constexpr static data members **are slightly more general**, allowing floating-point types as well
 as other **literal types**:
 + **NOTE: constexpr 静态数据成员稍微更通用点；literal types 惯用词应该为 字面量**
 
 #### P341：存疑：第二节上面一段
-
 + 译文/原文：需要注意的是，传递给 **func()** 的调用
 + **NOTE: 这里原文也是 func()， 但是并未找到 func() 函数**
 
 #### P342：存疑：第19.4.2节上面两段
-
 + 译文/原文：IsConvertibleT<. . . > 
 + **NOTE: 这里似乎并为提到 IsConvertibleT，包括代码，都在讲 IsDefaultConstructibleT。**
 
-#### P134，P242，P343，P382：用词一致：helper
-
+#### P134，P242，P343，P382：用词不一致：helper
 + 译文：**帮助**模板，**辅助**类模板，**helper** VoidT，**helper** 类
 + **NOTE: 多种风格，但不影响意思**
 
 #### P382: typo：中间一段文本中
-
 + 译文：isRandomAccessiator
 + **NOTE: 应该是 IsRandomAccessiator**
 

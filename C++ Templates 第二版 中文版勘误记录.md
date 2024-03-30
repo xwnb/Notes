@@ -27,15 +27,15 @@ this->class_mem **is not a qualified name**
 + 译文：constexpr 静态数据成员就**更不能使用了**，因为只允许浮点类型和其他**文本类型**
 + 原文：constexpr static data members **are slightly more general**, allowing floating-point types as well
 as other **literal types**:
-+ **NOTE: constexpr 静态数据成员稍微更通用点；literal types 惯用词应该为 字面量**
++ **NOTE: 意思应该是：constexpr 静态数据成员稍微更通用点 而不是不能使用；literal types 惯用词应该为 字面量**
 
 #### P341：存疑：第二节上面一段
 + 译文/原文：需要注意的是，传递给 **func()** 的调用
-+ **NOTE: 这里原文也是 func()， 但是并未找到 func() 函数**
++ **NOTE: 这里原文也是 func()， 但是并未找到 func() 函数，怀疑是指 test()**
 
 #### P342：存疑：第19.4.2节上面两段
 + 译文/原文：IsConvertibleT<. . . > 
-+ **NOTE: 这里似乎并为提到 IsConvertibleT，包括代码，都在讲 IsDefaultConstructibleT。**
++ **NOTE: 这里似乎并为提到 IsConvertibleT，包括代码，这一节都在讲 IsDefaultConstructibleT。**
 
 #### P134，P242，P343，P382：用词不一致：helper
 + 译文：**帮助**模板，**辅助**类模板，**helper** VoidT，**helper** 类
@@ -43,7 +43,7 @@ as other **literal types**:
 
 #### P382: typo：中间一段文本中
 + 译文：isRandomAccessiator
-+ **NOTE: 应该是 IsRandomAccessiator**
++ **NOTE: 笔误，应该是 IsRandomAccessiator**
 
 #### P382：用词：倒数第二行
 + 译文：EnableIfT<...>::Type（**因此** EnableIf<...>）
@@ -85,7 +85,10 @@ as other **literal types**:
 #### P419：用词：第2点脚注
 + 译文：因为它们被定义在封入它们的类的内容中
 + 原文：because they are defined in the body of their **enclosing class**
-+ **NOTE：拗口，且书中其他几处 enclosing class 使用的是 封闭类 翻译**
++ **NOTE：差点意思，且书中其他几处 enclosing class 使用的是 封闭类 翻译**
+
+#### P454：typo
++ **NOTE：Tranform 应该是 Transform**
 
 #### P469：未找到源码：第21.5节上面一段
 + 原文/译文：完整的构造函数声明在 **tuples/tuple.hpp** 中

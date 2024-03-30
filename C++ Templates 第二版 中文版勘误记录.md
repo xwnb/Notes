@@ -72,11 +72,11 @@ as other **literal types**:
 
 #### P410：存疑：第2节
 + 原文/译文：以上 ListNodeIterator 实现的一个缺点是，作为公共接口，我们被要求公开 dereference()、**advance()** 和 equals() 运算
-+ **NOTE：不清楚是不是因为代码示例不完整的缘故，结合下文，如果是针对 ListNodeIterator 并没有 advance() 接口**
++ **NOTE：不清楚是不是因为代码示例不完整的缘故，结合上下文，如果是针对 ListNodeIterator 并没有 advance() 接口**
 
 #### P419：图片未更新：图21.4
 + 原文/译文：图片中类图，使用 **typedef DefaultPolicy1 P1; **等。
-+ **NOTE：该图片和第一版的图16.1一致，但书中代码及文字均已经更新使用 using 来做模板别名，图片未更新，依然用 typedef **
++ **NOTE：该图片和第一版的图16.1一致，但书中代码及文字均已经更新使用 using 来做模板别名，图片未更新，依然用 typedef 。**
 
 #### P419：未找到源码 inherit/namedtmpl.cpp：第21.5节上面一段
 + 原文/译文：在 **inherit/namedtmpl.cpp** 中可以找到完整的示例。

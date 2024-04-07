@@ -109,13 +109,13 @@ as other **literal types**:
 
 #### P557：不必要的翻译：C.3.2
 + 译文: 派生类 const 到基类 const……。
-+ 原文: Derived const to Base const.
++ 原文: `Derived const` to `Base const`.
 + **NOTE: 不必要的翻译，这里指代代码示例中的类型名称**
 
 #### P558：typo，及不必要的翻译：C.3.2 （2）
 + 译文: 结果从**其类** const 到 short 的用户自定义转型。
-+ 原文: A user-defined conversion of the resulting Base const object to type short
-+ **NOTE: 造成 Base const 对象到 short 类型的用户自定义转型**
++ 原文: A user-defined conversion of the resulting `Base const` object to type `short`
++ **NOTE: 造成 `Base const` 对象到 `short` 类型的用户自定义转型**
 
 
 

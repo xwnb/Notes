@@ -97,4 +97,26 @@ as other **literal types**:
 #### P471：补充：译注
 + **NOTE：编译倒没问题，这里的问题是运行时，空元组重载了第一个方法，只能输出半个开括号**
 
+#### P554：润色：C.2.1 第一段末尾
++ 译文: 等到加入 **时间** 引用类型的时候，太多的代码已经依赖于 **this 指针** 了。
++ 原文: and by the time reference types were added, too many code already depended on this being a pointer.
++ **NOTE：等到引用类型被加入的时候，已经有太多的代码依赖于被作为指针的 this。**
+
+#### P554：typo：C.2.1 第二段
++ 译文: 隐含的 this* 参数……。
++ 原文: The hidden *this parameter…….
++ **NOTE: this* -> *this**
+
+#### P557：不必要的翻译：C.3.2
++ 译文: 派生类 const 到基类 const……。
++ 原文: Derived const to Base const.
++ **NOTE: 不必要的翻译，这里指代代码示例中的类型名称**
+
+#### P558：typo，及不必要的翻译：C.3.2 （2）
++ 译文: 结果从**其类** const 到 short 的用户自定义转型。
++ 原文: A user-defined conversion of the resulting Base const object to type short
++ **NOTE: 造成 Base const 对象到 short 类型的用户自定义转型**
+
+
+
 未完待续……

@@ -105,7 +105,7 @@ as other **literal types**:
 #### P554：typo：C.2.1 第二段
 + 译文: 隐含的 this* 参数……。
 + 原文: The hidden *this parameter…….
-+ **NOTE: this* -> *this**
++ **NOTE: `this*` -> `*this`**
 
 #### P557：不必要的翻译：C.3.2
 + 译文: 派生类 const 到基类 const……。

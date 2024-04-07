@@ -35,7 +35,7 @@ as other **literal types**:
 
 #### P342：存疑：第19.4.2节上面两段
 + 译文/原文：IsConvertibleT<. . . > 
-+ **NOTE: 这里似乎并为提到 IsConvertibleT，包括代码，这一节都在讲 IsDefaultConstructibleT。有趣的是我在第一版 IsConvertibleT 的代码示例中找到了上一条提到的 func()，但在第二版的 IsConvertibleT 中，func() 变成了 aux()，哈哈哈。**
++ **NOTE: 这里似乎并未提到 IsConvertibleT，包括代码，这一节都在讲 IsDefaultConstructibleT。有趣的是我在第一版 IsConvertibleT 的代码示例中找到了上一条提到的 func()，但在第二版的 IsConvertibleT 中，func() 变成了 aux()，哈哈哈。**
 
 #### P134，P242，P343，P382：用词不一致：helper
 + 译文：**帮助**模板，**辅助**类模板，**helper** VoidT，**helper** 类
@@ -43,7 +43,7 @@ as other **literal types**:
 
 #### P382: typo：中间一段文本中
 + 译文：isRandomAccessiator
-+ **NOTE: 笔误，应该是 IsRandomAccessiator**
++ **NOTE: 笔误，应该是 IsRandomAccessIterator**
 
 #### P382：用词：倒数第二行
 + 译文：EnableIfT<...>::Type（**因此** EnableIf<...>）
